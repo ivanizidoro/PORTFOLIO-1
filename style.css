@@ -383,7 +383,6 @@ span{
 }
 
 .projetos-box .projetos-content{
-    position: relative;
     display: inline-flex;
     padding: 2rem;
     gap: 10px;
@@ -706,6 +705,13 @@ section:nth-child(odd) .animate.scroll,
     html {
     font-size: 55%;
 }
+
+
+.projetos-box .projetos-content{
+    position: relative;
+    flex-direction: column;
+}
+
 }
 
 @media (max-width: 991px) {
@@ -820,6 +826,17 @@ section{
         width: 38px;
         height: 38px;
     }
+
+    .projetos-box .projetos-content{
+        position: relative;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .projetos-box .projetos-content img{
+        width: 340px;
+    }
+    
 }
 
 @media (max-width: 462px) {
