@@ -362,7 +362,7 @@ span{
 .projetos .projetos-row{
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 70rem;
 }
 
 .projetos-column .title{
