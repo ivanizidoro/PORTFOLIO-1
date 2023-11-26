@@ -383,7 +383,8 @@ span{
 }
 
 .projetos-box .projetos-content{
-    display: inline-flex;
+    display: flex;
+    flex-direction: center;
     padding: 2rem;
     gap: 10px;
 }
